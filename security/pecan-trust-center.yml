@@ -1,0 +1,15 @@
+generated: '2026-07-20'
+method: searched
+probe: false
+url: https://www.pecan.ai/platform/data-security/
+certifications:
+  - ISO 27001
+  - SOC 2 Type II
+practices:
+  - "AWS production environment with S3 Server-Side Encryption (S3-SSE)"
+  - "2FA-enabled VPN with active firewall protecting the network"
+  - "SIEM controls for continuous monitoring and incident response"
+  - "Need-to-know access for IT, DBA, DevOps, and customer success personnel"
+evidence:
+  - source: https://www.pecan.ai/platform/data-security/
+    keywords: [iso 27001, soc 2 type ii, encryption, security]

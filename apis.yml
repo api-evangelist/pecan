@@ -1,7 +1,14 @@
 aid: pecan
 name: Pecan
-description: 'Pecan is a company surfaced as a portfolio company of ggv-capital and added to the API Evangelist
-  network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Pecan AI is a predictive analytics platform that lets business teams generate
+  machine-learning predictions without data-science expertise. Users describe a business
+  question in natural language and Pecan builds, trains, and deploys predictive models
+  for outcomes such as customer churn, lifetime value (LTV), lead scoring, demand
+  forecasting, upsell and cross-sell, campaign ROAS, and fraud prevention. Predictions
+  connect back to CRMs, marketing platforms, and BI dashboards through native integrations
+  or an API. The company markets itself as a predictive AI agent built for business
+  outcomes rather than raw models, and runs on AWS with ISO 27001 and SOC 2 Type II
+  security certifications.'
 url: https://raw.githubusercontent.com/api-evangelist/pecan/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +16,29 @@ x-backed-by:
 - ggv-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://d11l08mk9rlgne.cloudfront.net/wp-content/uploads/2026/01/featured-image.png
 tags:
 - Company
 - Ai
+- Predictive Analytics
+- Machine Learning
+- Data Science
+- Forecasting
+- Business Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +48,36 @@ maintainers:
 common:
 - type: Website
   url: https://www.pecan.ai/
+- type: Documentation
+  url: https://help.pecan.ai/en/
+- type: HelpCenter
+  url: https://help.pecan.ai/en/
+- type: Blog
+  url: https://www.pecan.ai/blog/
+- type: GettingStarted
+  url: https://help.pecan.ai/en/collections/3580335-getting-started
+- type: GitHubOrganization
+  url: https://github.com/pecan-ai
+- type: Pricing
+  url: https://www.pecan.ai/pricing/
+- type: Login
+  url: https://pecan.ai/login
+- type: TermsOfService
+  url: https://www.pecan.ai/license-agreement/
+- type: PrivacyPolicy
+  url: https://www.pecan.ai/privacy/
+- type: LLMsTxt
+  url: llms/pecan-llms.txt
+- type: Conformance
+  url: conformance/pecan-conformance.yml
+- type: Compliance
+  url: https://www.pecan.ai/platform/data-security/
+- type: TrustCenter
+  url: security/pecan-trust-center.yml
+- type: DomainSecurity
+  url: security/pecan-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 0
+  pass: local-v1
