@@ -1,14 +1,12 @@
 aid: pecan
 name: Pecan
-description: 'Pecan AI is a predictive analytics platform that lets business teams generate
-  machine-learning predictions without data-science expertise. Users describe a business
-  question in natural language and Pecan builds, trains, and deploys predictive models
-  for outcomes such as customer churn, lifetime value (LTV), lead scoring, demand
-  forecasting, upsell and cross-sell, campaign ROAS, and fraud prevention. Predictions
-  connect back to CRMs, marketing platforms, and BI dashboards through native integrations
-  or an API. The company markets itself as a predictive AI agent built for business
-  outcomes rather than raw models, and runs on AWS with ISO 27001 and SOC 2 Type II
-  security certifications.'
+description: Pecan AI is a predictive analytics platform that lets business teams generate machine-learning
+  predictions without data-science expertise. Users describe a business question in natural language and
+  Pecan builds, trains, and deploys predictive models for outcomes such as customer churn, lifetime value
+  (LTV), lead scoring, demand forecasting, upsell and cross-sell, campaign ROAS, and fraud prevention.
+  Predictions connect back to CRMs, marketing platforms, and BI dashboards through native integrations
+  or an API. The company markets itself as a predictive AI agent built for business outcomes rather than
+  raw models, and runs on AWS with ISO 27001 and SOC 2 Type II security certifications.
 url: https://raw.githubusercontent.com/api-evangelist/pecan/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -29,7 +27,7 @@ accessModel:
   method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-20'
+modified: '2026-08-08'
 image: https://d11l08mk9rlgne.cloudfront.net/wp-content/uploads/2026/01/featured-image.png
 tags:
 - Company
@@ -76,8 +74,12 @@ common:
   url: security/pecan-trust-center.yml
 - type: DomainSecurity
   url: security/pecan-domain-security.yml
+- type: Support
+  url: https://www.pecan.ai/contact/
 x-enrichment:
   date: '2026-07-20'
   status: enriched
   artifacts_added: 0
   pass: local-v1
+x-merged-from:
+- pecan-ai
