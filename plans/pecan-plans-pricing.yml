@@ -1,0 +1,37 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.pecan.ai/pricing/
+sources:
+- https://www.pecan.ai/pricing/
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: false
+note: Three tiers listed with quotas but no numeric prices; all say 'Talk to sales'. Annual billing cycle
+  noted; no setup fee.
+plan_count: 3
+plans:
+- name: Starter
+  price_text: Talk to sales
+  period: none
+  included_quota: 2 monthly prediction batches; 500M rows storage; In-app support
+- name: Team
+  price_text: Talk to sales
+  period: none
+  included_quota: 10 monthly prediction batches; 2Bn rows storage; In-app + Essential enablement
+- name: Business
+  price_text: Talk to sales
+  period: none
+  included_quota: Custom monthly prediction batches; 5Bn rows storage; In-app + Pro enablement
+rate_limit_statements:
+- Monthly predictions batches 10
+- Storage 2Bn rows
+- Storage 5Bn rows
