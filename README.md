@@ -64,6 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Pecan is a company surfaced as a portfolio company of ggv-capital and added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting the enrichment pipeline.
+Pecan AI is a predictive analytics platform that lets business teams generate machine-learning predictions without data-science expertise. Users describe a business question in natural language and Pecan builds, trains, and deploys predictive models for outcomes such as customer churn, lifetime value (LTV), lead scoring, demand forecasting, upsell and cross-sell, campaign ROAS, and fraud prevention. Predictions connect back to CRMs, marketing platforms, and BI dashboards through native integrations or an API. The company markets itself as a predictive AI agent built for business outcomes rather than raw models, and runs on AWS with ISO 27001 and SOC 2 Type II security certifications.
 
-Backed by: ggv-capital — https://www.pecan.ai/
+**Areas:** Company · Artificial Intelligence · Predictive Analytics · Machine Learning · Data Science · Forecasting · Business Intelligence
+
+## Pecan on APIs.io
+
+Everything profiled for Pecan is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/pecan/](https://apis.io/providers/pecan/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Pecan Domain Security](https://apis.io/security/pecan/pecan-domain-security/)
+- [Pecan Trust Center](https://apis.io/security/pecan/pecan-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Pecan Plans Pricing](https://apis.io/plans/pecan/pecan-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.pecan.ai/)
+- [Documentation](https://help.pecan.ai/en/)
+- [Getting started](https://help.pecan.ai/en/collections/3580335-getting-started)
+- [Pricing](https://www.pecan.ai/pricing/)
+- [Support](https://www.pecan.ai/contact/)
+- [Blog](https://www.pecan.ai/blog/)
+- [Compliance](https://www.pecan.ai/platform/data-security/)
+- [Terms of service](https://www.pecan.ai/license-agreement/)
+- [Privacy policy](https://www.pecan.ai/privacy/)
+- [GitHub](https://github.com/pecan-ai)
+
+## API Evangelist rating
+
+**Kin Score 31.9** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 85.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 21.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/pecan/](https://apis.io/providers/pecan/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Pecan: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/pecan/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
